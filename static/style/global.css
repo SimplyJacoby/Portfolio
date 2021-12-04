@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "FiraCode";
+    src: url('../../fonts/fira-code/woff2/FiraCode-Regular.woff2') format('woff2'),
+        url('./../fonts/fira-code/woff/FiraCode-Regular.woff') format('woff'),
+        url('./../fonts/fira-code/ttf/FiraCode-Regular.ttf') format('truetype');
+}
+
+:root {
+    --font-primary: 'FiraCode';
+    --font-backup: sans-serif;
+
+    --bg-color: #ececec;
+    --bg-color-2: #fff;
+    --bg-color-3: #293347;
+    --bg-color-4: #293347;
+
+    --accent-color: #1E90FF;
+
+    --text-color: #293347;
+    --text-color-2: #4a4a4a;
+    --text-color-3: #fff;
+
+    --border-color: #ececec;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@media(min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
