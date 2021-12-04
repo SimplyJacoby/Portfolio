@@ -6,27 +6,62 @@
         <title>Jacob's Website</title>
         <link rel="stylesheet" href="style/normalize.css">
         <link rel="stylesheet" href="style/index.css">
+        <link rel="stylesheet" href="style/hamburger.css">
+        <link rel="stylesheet" href="style/header.css">
+        <link rel="stylesheet" href="style/navbar.css">
+        <link rel="stylesheet" href="style/home.css">
+        <link rel="stylesheet" href="style/about.css">
+        <link rel="stylesheet" href="style/global.css">
+        <script src="../dynamic/index.js"></script>
     </head>
     <body>
         <header>
-            <div class="logo">
-                J A C O B B R E A M
-            </div>
-            <button class="nav-toggle" aria-label="toggle-navigation">
-                <span class="hamburger">
+            <div class="logo">J A C O B B R E A M</div>
+            <button class="nav-toggle" onclick="openNavBar()">
+                <span class="hamburger" id="nav-bar-hamburger">
                     <div></div>
                     <div></div>
                     <div></div>
                 </span>
             </button>
-            <div class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
-                </ul>
-            </div>
         </header>
+        <div class="nav" id="nav-container">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="home">
+            <div id="home-left">
+                <div id="profile-pic"></div>
+            </div>
+            <div id="home-right">
+                <p id="home-description">Hi, I'm Jacob. I'm a CS student at NCSU looking for work.</p>
+            </div>
+        </div>
+
+        <div id="about">
+            <div id="about-header">A little about me</div>
+            <div id="about-sections-container">
+                <div class="about-section">
+                    <div class="about-section-header">
+                        Classes
+                    </div>
+                </div>
+                <div class="about-section">
+                    <div class="about-section-header">
+                        Skills
+                    </div>
+                </div>
+                <div class="about-section">
+                    <div class="about-section-header">
+                        Hobbies
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

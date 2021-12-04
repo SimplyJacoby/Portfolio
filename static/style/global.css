@@ -11,8 +11,9 @@
 
     --bg-color: #ececec;
     --bg-color-2: #fff;
-    --bg-color-3: #293347;
+    --bg-color-3: #9EDEC6;
     --bg-color-4: #293347;
+    --bg-color-5: #FF8976;
 
     --accent-color: #1E90FF;
 
@@ -20,15 +21,17 @@
     --text-color-2: #4a4a4a;
     --text-color-3: #fff;
 
-    --border-color: #ececec;
+    --border-color: #dbdbdb;
 
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
-    --fs-body: 1rem;
+    --fs-h1: 3.5rem !important;
+    --fs-h2: 2.5rem !important;
+    --fs-h3: 1.75rem !important;
+    --fs-body: 1rem !important;
+
+    --header-height: 10%;
 }
 
 *,

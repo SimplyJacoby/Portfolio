@@ -1,0 +1,45 @@
+#home {
+    top: var(--header-height);
+    width: 100%;
+    height: calc(100% - var(--header-height));
+    position: absolute;
+    display: block;
+    background: none;
+}
+
+#home-left {
+    height: 100%;
+    width: 50%;
+    background: var(--bg-color-3);
+    position: absolute;
+}
+
+#home-right {
+    height: 100%;
+    left: 50%;
+    width: 50%;
+    background: var(--bg-color-4);
+    position: absolute;
+}
+
+#home-description {
+    color: var(--text-color-3);
+    text-align: center;
+    top: 20%;
+    right: 15%;
+    width: 70%;
+    font-size: var(--fs-h1);
+    position: absolute;
+}
+
+#profile-pic {
+    width: 30%;
+    height: 70%;
+    background-size: contain;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../images/profile-pic.jpg");
+    position: absolute;
+    top: 16.5%;
+    left: 35%;
+}
